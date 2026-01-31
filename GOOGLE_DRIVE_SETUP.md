@@ -6,7 +6,7 @@ Follow these steps to enable Google Drive image selection:
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Click "Select a project" → "New Project"
-3. Enter project name (e.g., "PRTV Image Picker")
+3. Enter project name (e.g., "Google-drive-connection Image Picker")
 4. Click "Create"
 
 ## Step 2: Enable Required APIs
@@ -22,7 +22,7 @@ Follow these steps to enable Google Drive image selection:
 2. Click "Create Credentials" → "OAuth client ID"
 3. If prompted, configure the OAuth consent screen:
    - User Type: External
-   - App name: PRTV
+   - App name: Google-drive-connection
    - User support email: your email
    - Developer contact: your email
    - Click "Save and Continue"
@@ -31,7 +31,7 @@ Follow these steps to enable Google Drive image selection:
    - Click "Save and Continue"
 4. Back to Create OAuth client ID:
    - Application type: **Web application**
-   - Name: PRTV Web Client
+   - Name: Google-drive-connection Web Client
    - Authorized JavaScript origins:
      - `http://localhost:3000`
      - Add your production domain later

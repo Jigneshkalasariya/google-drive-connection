@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PRTV App",
+  title: "Google-drive-connection App",
   description: "Next.js app with shadcn/ui",
 };
 
